@@ -1,0 +1,71 @@
+123.456   : Float
+123.
+   : Float
+.456   : Float
+123.456e3   : FloatE
+123.456e-3   : FloatE
+123.456e+3   : FloatE
+123.456E3   : FloatE
+123.456E-3   : FloatE
+123.456E+3   : FloatE
+123.456e3   : FloatE
+123.e+3   : FloatE
+.456e-3   : FloatE
+123.456E3   : FloatE
+123.E+3   : FloatE
+.456E-3   : FloatE
++   : Add
+123.456   : Float
+-   : Minus
+123.
+   : Float
++   : Add
+.456   : Float
++   : Add
+123.456e3   : FloatE
+-   : Minus
+123.456E-3   : FloatE
++   : Add
+123.456e+3   : FloatE
+123   : Int
+E3   : Id
+123   : Int
+e   : Id
+-   : Minus
+3   : Int
+123   : Int
+e   : Id
++   : Add
+3   : Int
++   : Add
+123   : Int
+e32   : Id
+-   : Minus
+123   : Int
+e   : Id
+-   : Minus
+32   : Int
++   : Add
+123   : Int
+E   : Id
++   : Add
+3   : Int
+0   : Int
+e1   : Id
++   : Add
+0   : Int
+E1   : Id
+-   : Minus
+0   : Int
+E1   : Id
+.
+   : Float
+.e3   : FloatE
+.E3   : FloatE
+123.456e
+ : Lexical Error, invalid token
+123.456E
+ : Lexical Error, invalid token
+123.456E-
+ : Lexical Error, invalid token
+123.456e+ : Lexical Error, invalid token
